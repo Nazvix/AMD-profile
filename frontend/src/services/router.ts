@@ -12,13 +12,18 @@ const router = createRouter({
             component: Home
         },
         {
-            path: '/portfolio',
+            path: '/services',
+            name: 'Layanan',
+            component: Portfolio
+        },
+        {
+            path: '/portfolios',
             name: 'Portfolio',
             component: Portfolio
         },
         {
             path: '/contact',
-            name: 'Contact',
+            name: 'Kontak',
             component: Contact
         },
     ]
